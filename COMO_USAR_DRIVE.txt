@@ -1,0 +1,85 @@
+HORAS TRANSPORTE — GOOGLE DRIVE (CARPETA COMPARTIDA)
+=====================================================
+
+Todo queda en UNA CARPETA de Drive, fácil de encontrar y compartir:
+
+   Mi unidad
+   └── Horas Transporte/
+         ├── datos.json              ← datos actuales (siempre al día)
+         └── Respaldos/
+               ├── respaldo_2026-07-13_09-15.json
+               ├── respaldo_2026-07-13_14-30.json
+               └── ... (guarda los últimos 30)
+
+
+═══════════════════════════════════════════════════════
+  CONFIGURAR (una sola vez)
+═══════════════════════════════════════════════════════
+
+1. https://script.google.com → tu proyecto
+2. Código.gs  → pegar sheets\CodeDrive.gs
+3. ControlHoras.html → pegar control_horas.html
+4. Implementar → Nueva implementación → Aplicación web
+   - Ejecutar como: Yo
+   - Acceso: Cualquier usuario con cuenta de Google
+     (así otra persona puede abrir la URL con su Gmail)
+5. Copiá la URL y guardala en favoritos
+
+
+═══════════════════════════════════════════════════════
+  USAR VOS
+═══════════════════════════════════════════════════════
+
+- Abrí la URL de la app (NO el HTML del escritorio)
+- Cargá datos → arriba dice ☁️ Drive
+- En drive.google.com buscá la carpeta "Horas Transporte"
+- Cada guardado actualiza datos.json y crea un respaldo en Respaldos/
+
+
+═══════════════════════════════════════════════════════
+  COMPARTIR CON OTRA PERSONA (otra PC, celular, etc.)
+═══════════════════════════════════════════════════════
+
+Hacé LAS DOS COSAS:
+
+A) COMPARTIR LA CARPETA EN DRIVE
+   1. drive.google.com
+   2. Carpeta "Horas Transporte" → clic derecho → Compartir
+   3. Agregá el mail de la otra persona
+   4. Permiso: Editor (puede ver y usar los archivos)
+   5. Enviar
+
+B) PASARLE LA URL DE LA APP
+   - La misma URL que copiaste al implementar
+   - Ella lo abre en Chrome (PC o celular)
+   - Entra con su cuenta de Google
+   - Ve y edita LOS MISMOS datos que vos
+
+IMPORTANTE:
+- Usen la MISMA URL (la tuya, del paso Implementar)
+- No editen dos personas exactamente al mismo tiempo
+  (pueden pisarse un cambio). Uno carga, guarda, pasa al otro.
+- Si ya tenías datos en la PC: Respaldo local → Restaurar en la URL
+
+
+═══════════════════════════════════════════════════════
+  QUÉ VE CADA UNO
+═══════════════════════════════════════════════════════
+
+VOS (dueño de la app):
+  - Carpeta en tu Drive
+  - URL de la app
+
+LA OTRA PERSONA:
+  - Carpeta "Horas Transporte" compartida (en "Compartido conmigo")
+  - Misma URL de la app en su navegador
+  - Mismos datos en tiempo real
+
+
+═══════════════════════════════════════════════════════
+  ACTUALIZAR EL PROGRAMA
+═══════════════════════════════════════════════════════
+
+1. script.google.com → reemplazar ControlHoras.html
+2. Implementar → Administrar → Nueva versión
+   (NO hace falta tocar la carpeta de Drive)

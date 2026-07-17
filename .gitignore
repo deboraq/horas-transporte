@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Datos locales / generados (no subir datos reales)
+data/planillas/
+data/comparaciones/
+data/*.xlsx
+data/*dump*
+data/*.json
+!data/.gitkeep
+
+# Planillas Sheets locales
+sheets/*.xlsx
+
+# Fotos / notas locales
+WhatsApp Image*
+*.jpeg
+*.jpg
+*.png
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+*.tmp
+.cursor/
+.vscode/
+*.log

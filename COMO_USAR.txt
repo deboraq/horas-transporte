@@ -1,0 +1,36 @@
+HORAS TRANSPORTE — CÓMO USAR
+==============================
+
+1. Doble clic en: ABRIR_CONTROL.bat
+
+2. ARRIBA elegís el período (ej: Julio 2026 = del 26/06 al 25/07)
+   - Al abrir, entra solo al período ACTUAL (según la fecha de hoy)
+   - Cada mes es un período aparte: los datos NO se mezclan
+   - Cambiás de mes con los selectores o la lista "Períodos con datos" (izquierda)
+   - Botón "Período actual" si estás viendo un mes anterior
+
+3. PESTAÑA "POR DÍA":
+   - A la izquierda: todos los días del período
+   - Clic en un día
+   - Buscás colaborador por nombre o legajo
+   - Ponés entrada, salida, citación (opcional), turno
+   - "+ Agregar" → los cálculos aparecen solos en la tabla
+   - Podés editar horarios directo en la tabla
+   - El número en cada día = cuántos cargaste ese día
+
+4. PESTAÑA "POR COLABORADOR":
+   - Buscás a la persona
+   - Clic en su nombre
+   - Ves todo el mes con totales arriba
+
+5. PESTAÑA "PERSONAL":
+   - Agregar: legajo + apellido y nombre → "+ Agregar"
+   - Quitar: botón "Quitar" en la lista
+   - Los cambios se guardan solos
+
+6. "Exportar" (arriba a la derecha) → baja un CSV para Excel
+
+Los datos se guardan solos en el navegador por período.
+
+PARA USAR CON GOOGLE DRIVE (celular, otra PC, respaldo en la nube):
+   Leé el archivo COMO_USAR_DRIVE.txt
